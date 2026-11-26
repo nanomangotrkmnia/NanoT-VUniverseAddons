@@ -20,7 +20,7 @@ stonecutter {
     loomx.loomVersion = "1.18-SNAPSHOT"
 
     create(rootProject) {
-        versions("1.21.11", "26.3")
+        versions("1.21.11", "26.1.2", "26.3")
         vcsVersion = "26.3"
     }
 }
