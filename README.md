@@ -44,6 +44,10 @@ AutoChunkMiner uses Baritone when installed, otherwise Reach mode only mines blo
 AutoChunkMiner and AutoTerraform use InfiniteReach for blocks beyond normal reach; vanilla still caps normal reach at about 5.5 blocks.
 GhostBlocks swallows right click while active; use SneakRightClick mode to keep normal interactions.
 
+## server ads
+
+The title screen and multiplayer screen show clickable ads for The Future (`future.playsmp.xyz`) and Truth & Verity. Click one to join; hover it to see the address. Settings are in `config/future-ads.properties`. An empty `verity.address` uses the saved server named "Truth & Verity". The same ads ship as the standalone FutureAds mod; when that mod is installed, the addon hides its own copy.
+
 ## commands
 
     .ai <message>
