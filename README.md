@@ -46,7 +46,7 @@ GhostBlocks swallows right click while active; use SneakRightClick mode to keep 
 
 ## server ads
 
-The title screen and multiplayer screen show clickable ads for The Future (`future.playsmp.xyz`) and Truth & Verity. Click one to join; hover it to see the address. Settings are in `config/future-ads.properties`. An empty `verity.address` uses the saved server named "Truth & Verity". The same ads ship as the standalone FutureAds mod; when that mod is installed, the addon hides its own copy.
+The title screen and multiplayer screen show clickable ads for The Future (`future.playsmp.xyz`) and Truth & Verity. Click one to join; hover it to see the address. Settings are in `config/future-ads.properties`. An empty `verity.address` uses the saved server named "Truth & Verity". The same ads ship as the standalone FutureAds mod in `futureads/` (build with `./gradlew -p futureads collectJars`); when that mod is installed, the addon hides its own copy.
 
 ## commands
 

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "futureads",
+  "version": "${version}",
+  "name": "FutureAds",
+  "description": "Clickable ads for The Future and Truth & Verity on the title and multiplayer screens.",
+  "authors": [
+    "nanomango"
+  ],
+  "license": "ARR",
+  "environment": "client",
+  "mixins": [
+    "futureads.mixins.json"
+  ],
+  "depends": {
+    "java": ">=${java_version}",
+    "minecraft": "${mc_version}",
+    "fabricloader": "*"
+  }
+}
