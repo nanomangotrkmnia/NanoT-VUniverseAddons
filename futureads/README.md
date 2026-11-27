@@ -3,7 +3,7 @@
 A small client-side Fabric mod for Minecraft 1.21.11, 26.1.2 and 26.3. It adds two clickable ads:
 
 - **Join The Future!** bottom-right on the title screen and top-right on the multiplayer screen. Joins `future.playsmp.xyz`.
-- **Try the Verity / Try at T&V** bottom-left on the title screen and left of the server list. Joins Truth & Verity.
+- **Join Truth & Verity** bottom-left on the title screen and left of the server list. Joins Truth & Verity.
 
 Hover an ad to see the address; click it to connect. An ad is skipped when it would cover a button or the screen is too narrow.
 

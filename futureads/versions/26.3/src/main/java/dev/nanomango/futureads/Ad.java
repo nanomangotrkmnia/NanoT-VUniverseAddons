@@ -15,11 +15,11 @@ public enum Ad {
         this.defaultAddress = defaultAddress;
     }
 
-    /** Headline lines. {@code multiplayer} picks the shorter wording used next to the server list. */
+    /** Headline lines; the same on the title and multiplayer screens. */
     public String[] headline(boolean multiplayer) {
         return switch (this) {
             case FUTURE -> new String[] {"Join The Future!"};
-            case VERITY -> multiplayer ? new String[] {"Try at", "T&V"} : new String[] {"Try the", "Verity"};
+            case VERITY -> new String[] {"Join Truth", "& Verity"};
         };
     }
 }
